@@ -22,7 +22,7 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card flex flex-col gap-4">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button onClick={() => setCount((count) => count + 2)}>
           count is {count}
         </button>
         <p>
