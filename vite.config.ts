@@ -7,6 +7,6 @@ export default defineConfig({
   plugins: [react() , tailwindcss()],
   base:"/react-app/",
   build:{
-    outDir:'build'
+    outDir:'dist'
   }
 })
