@@ -8,16 +8,20 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className=" flex flex-col gap-4 items-center ">
         <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+          <img className=" size-20 m-2" src={viteLogo} alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+          <img
+            src={reactLogo}
+            className="size-20 m-2 animate-[spin_4.5s_linear_infinite] transition-all react"
+            alt="React logo"
+          />
         </a>
       </div>
       <h1>Vite + React</h1>
-      <div className="card ">
+      <div className="card flex flex-col gap-4">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
